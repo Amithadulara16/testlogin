@@ -1,0 +1,76 @@
+/* Reset & base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container styling */
+  .login-container {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    width: 350px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .login-container h2 {
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  /* Label styling */
+  .login-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #444;
+    font-weight: 500;
+  }
+  
+  /* Input styling */
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .login-container input:focus {
+    border-color: #5c9ded;
+    outline: none;
+    box-shadow: 0 0 5px #a6c8ff;
+  }
+  
+  /* Button styling */
+  .login-container button {
+    width: 100%;
+    padding: 12px;
+    background: #5ced80;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-container button:hover {
+    background: #db3db4;
+  }
+  
